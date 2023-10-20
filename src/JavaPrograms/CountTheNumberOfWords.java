@@ -20,7 +20,7 @@ public class CountTheNumberOfWords {
         	}
         	
         }
-        System.out.println("Number of words in the String are : "+count);
+        System.out.println("Number of words are : "+count);
 	}
 
 }
