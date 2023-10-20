@@ -1,0 +1,11 @@
+Selenium is a web application automation tool.
+
+Architechture of Selenium :
+
+Search context is a super most interface in selenium which extended by WebDriver, JavaScriptExecutor and TakesScreenshot interfaces
+
+WebDriver interface implemented by RemoteWebDriver class.
+RemoteWebDriver class extended by ChromDriver and FirefoxDriver class
+
+Pending list for seleniun :
+JavaScriptExecutor :
