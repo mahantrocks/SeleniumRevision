@@ -9,3 +9,16 @@ RemoteWebDriver class extended by ChromDriver and FirefoxDriver class
 
 Pending list for seleniun :
 JavaScriptExecutor :
+
+Git commands :
+
+git init - TO initialize the local project to the remote repository
+git add  
+git commit -m"add project"
+git remote add SeleniumRevision https://github.com/mahantrocks/SeleniumRevision.git
+git push SeleniumRevision master
+
+git reset --soft Head : undo latest commit
+
+ls - to check list of directories in the folder
+

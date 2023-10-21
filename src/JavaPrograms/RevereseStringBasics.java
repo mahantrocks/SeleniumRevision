@@ -6,7 +6,7 @@ public class RevereseStringBasics {
 	
 	public static void main(String[] args) {
 		
-		String s = "Hello World!";
+		String s = "Welcome to this world Shoonapali";
 	    // char[]	charArray=s.toCharArray();
 	     String reverse=reverserString(s);
 	     System.out.println(reverse);
