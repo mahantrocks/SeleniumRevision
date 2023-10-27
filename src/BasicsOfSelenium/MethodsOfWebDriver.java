@@ -11,8 +11,8 @@ public class MethodsOfWebDriver {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriver driver =new ChromeDriver ();
 		String url="https://www.google.com";
-	driver.get(url);
-	driver.getCurrentUrl();
+	    driver.get(url);
+	    driver.getCurrentUrl();
 	
 //		driver.navigate().to(url);
 //		driver.navigate().refresh();

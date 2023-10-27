@@ -26,7 +26,7 @@ public class ScrollBottomOfThePageByJavaScriptExecutor {
 	        // Scroll to the bottom of the page
 	      //  js.executeScript("window.scrollTo(0, document.body.scrollHeight/2);");
          js.executeScript("window.scrollTo(0,document.body.scrollHeight/2)");
-
+         js.executeScript("window.scrollTo(document.body.scrollHeight,0)");
          
 	        // Close the browser
 	        //driver.quit();

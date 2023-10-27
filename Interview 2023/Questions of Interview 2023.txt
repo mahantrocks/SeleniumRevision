@@ -1,0 +1,30 @@
+Date : 27/10/2023
+
+Interview Questions asked by EY :
+
+1. What is the difference between StringBuilder and StringBuffer
+2. Expaling TestNg
+3. WAJP to find the lowest number from the given Array
+4. How to handle File Upload in Selenium
+5. How to handle dynamic dropdown
+6. Cucumber Gherkin Normal Text
+7. Overloading and Overriding concepts
+8. Different Authorization types.
+ 
+
+Interview Quiestions of TechMahindra are as follows :
+
+1. Overloading and Overrriding concepts
+2. Oops concepts 
+3. What are the String classes? 
+4. Tracability Matrik
+5. What is Final keyword in Java
+6. Difference between String Builder and String Buffer
+7. Difference between HashSet and HashMap
+8. WHat is UAT and System Testing. 
+9. WHat is integration testing.
+10. Altrnate of SendKys and Click methods of Selenium
+11.What is Black box testing
+12. Explain Selenium WebDriver in detail
+13. What is the difference between Error and Exception.
+14. What is finally and Finalise 

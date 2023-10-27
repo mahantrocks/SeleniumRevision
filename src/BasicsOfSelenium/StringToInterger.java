@@ -7,7 +7,7 @@ public class StringToInterger {
 		String number = "2";
 		
 		int n=Integer.parseInt(number);
-		System.out.println(n+" : Is the converted number from Sting");
+		System.out.println(n+" : Is a converted number from Sting");
 		// TODO Auto-generated method stub
 		
 		int i=5;
