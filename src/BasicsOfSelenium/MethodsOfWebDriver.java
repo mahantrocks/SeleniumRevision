@@ -12,7 +12,7 @@ public class MethodsOfWebDriver {
 		WebDriver driver =new ChromeDriver ();
 		String url="https://www.google.com";
 	    driver.get(url);
-	    driver.getCurrentUrl();
+	    System.out.println(driver.getCurrentUrl());
 	
 //		driver.navigate().to(url);
 //		driver.navigate().refresh();

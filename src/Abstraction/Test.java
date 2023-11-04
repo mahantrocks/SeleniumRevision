@@ -10,8 +10,9 @@ public class Test extends Shape{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Test t = new Test();
+		
 		//t.fill();
-		//t.drawing();
+		t.drawing();
 
 	}
 

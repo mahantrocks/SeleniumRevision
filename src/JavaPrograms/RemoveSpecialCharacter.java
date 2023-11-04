@@ -5,10 +5,10 @@ public class RemoveSpecialCharacter {
 	public static void main(String[] args) {
 		
 		String inputString = "MahantMadiwal@&&&&!!!!";
-		String stringWithoutSpecialCharacter=removeSpecialCharacters(inputString);
+		String cleanString=removeSpecialCharacters(inputString);
 		
 		System.out.println("InputString " +inputString);
-		System.out.println("String without special characters " +stringWithoutSpecialCharacter);
+		System.out.println("String without special characters " +cleanString);
 		// TODO Auto-generated method stub
 
 		

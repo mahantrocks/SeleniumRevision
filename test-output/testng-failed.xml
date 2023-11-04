@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.LoginTest">
+      <class name="DataProvider.StringConcatenationTest">
         <methods>
-          <include name="logintoAmazon"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="testStringConcatenation" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testNG.LoginTest -->
+      </class> <!-- DataProvider.StringConcatenationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
