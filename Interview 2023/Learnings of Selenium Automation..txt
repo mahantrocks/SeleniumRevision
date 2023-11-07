@@ -1,0 +1,79 @@
+Learning of Automation : 
+
+*****************************************
+1. When user has come across 'NoClassDefFound Error & ClassNotFound Exception in Java' error, Kindly got through this video "https://www.youtube.com/watch?v=K9cqFsuTwtE"
+and download jars from https://jar-download.com/artifacts/org.testng/testng link
+
+******************************************
+Resume Building wensites :
+
+cakeresume.com
+resumebuilder.com
+Enhancv.com
+
+
+*********************************************
+Websites to Automation by Selenium Webdriver
+
+Pending List of learning :
+
+1. Send a value in text box without using SendKeys method by JavaScriptExecutor.
+2. How did you enter a text when a textbix element is disabled ?
+Ans : By Java Script Executor.
+3. Read and Write data in Excel sheet with WorkBook Factory is pending.
+
+
+
+***************************************************
+Example of How a user can pass a value from suite file into a method
+
+<suite name="suite" parallel="none">
+<test name="xyz">
+<parameter name ="City" value="Bengalore">
+<parameter name ="name" value="BasavanGudi">
+<classes>
+<class name="somename">
+</classes>
+</test>
+</suite>
+
+
+@Test
+public void getParameterValue(XmlTest xmlTest){
+
+String v =xmlTest.getParameter("City");
+Reporter.log(v, true);
+
+**************************************************************
+
+Write a seleniun code to get all the Auto Suggestion Texts
+
+Public Class GetAllAutoSuggestedList{
+
+static{
+System.setProperty("wedriver.chromedriver.driver","./driver/chromedriver.exe");
+}
+
+public static void main(String[] args){
+
+WebDriver driver = new ChromeDriver();
+
+driver.get("url");
+driver.findElement(By.id("someis")).sendKeys("Selenium");
+List<WebElement>allAST=driver.findElement(By.xpath("//div[contains(text(),"Selenium")]"));
+int count=allAST.size();
+
+int p=0;
+for (int i=0;;i<count;i++){
+String text=allAST.get(i).getText();
+if (text.equals("Selenium WebDriver")){
+p=i;
+}
+
+}
+allAST.get(i).click();
+
+********************************************************************************
+Java websites to prepare for Automation.
+
+https://www.scientecheasy.com/2020/07/inheritance-in-java.html/
