@@ -13,7 +13,7 @@ public class RemoveDulicateCharacterFromString {
 		
 		
 	String input = "Automation Engineer";
-	char ch[] =input.toCharArray();
+//	char chaArray[] =input.toCharArray();
 //		
 //		Map<Character,Integer> result = new HashMap<Character,Integer>();
 //		StringBuffer sb = new StringBuffer();
@@ -36,11 +36,31 @@ public class RemoveDulicateCharacterFromString {
 //			}
 //		System.out.println(result);
 //		System.out.println("Duplicate character in the given String are :" + sb);
-		
-		
-		
-		System.out.println("UniqueValue");
-		
+//		
+//		
+//		
+//		System.out.println("UniqueValue");
+	
+	
+	String input1= "Subbi bcome so naughty now a days";
+	char ch[] =input1.toCharArray();
+	int count =0;
+	StringBuffer sb = new StringBuffer ();
+	
+	for (int i=0;i<input1.length();i++) {
+		for (int j=i+1;j<input1.length();j++) {
+		 
+				if (ch[i]==ch[j]) {
+					sb.append(ch[i]);
+					//System.out.println(ch[i]);
+					
+				}
+				
+			
+		}
+	}
+	
+	System.out.println(sb);
 		}
 		
 		

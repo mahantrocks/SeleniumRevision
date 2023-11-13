@@ -33,7 +33,7 @@ public class SendValueWithoutUsingSendKeys {
       //  WebElement unTxt=driver.findElement(By.xpath("//input[@name='username']"));
         String c = "document.getElementByName('username').value='abc';";
         RemoteWebDriver js = (RemoteWebDriver)driver;
-        js.executeScript(c);
+        
         
         
         

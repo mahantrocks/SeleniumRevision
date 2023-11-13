@@ -21,8 +21,9 @@ public class ExecuteSeleniumScriptByJavaScriptExecutorMethods {
         
        RemoteWebDriver js = (RemoteWebDriver)driver;
        
+       
        WebElement element = driver.findElement(By.xpath("/html//span[@id='loginspan']"));
-       js.executeScript("arguments[0].click();", element);
+       js.executeScript("arguments[0].click();", element); 
 
     
 

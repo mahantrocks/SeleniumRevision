@@ -13,13 +13,13 @@ public class IntegerArrayAscendingOrder {
 		
 		// Sort the given Array in Ascending order with Inbuild Method
 		
-		Integer[] Array = {89,109,49,90,5};
+		Integer[] Array = {89,109,49,90,5,10001,20001};
 		
 		int temp;
 		
 		for (int i=0;i<Array.length;i++) {
 			
-			for (int j=i;j<Array.length;j++) {
+			for (int j=0;j<Array.length;j++) {
 				
 				if(Array[i]>Array[j]) {
 					temp=Array[i];

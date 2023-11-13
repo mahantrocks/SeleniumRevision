@@ -21,7 +21,7 @@ public class ArrayLIstIterator {
 		
 		for (int i=al.size()-1;i>=0;i--) {
 			
-			//System.out.println(al.get(i));
+			System.out.println(al.get(i));
 			
 		}
 		

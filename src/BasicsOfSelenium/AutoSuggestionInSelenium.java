@@ -26,14 +26,28 @@ public class AutoSuggestionInSelenium {
 		Thread.sleep(3000);
 		
 		List<WebElement> listBox=driver.findElements(By.xpath("//div[@class='s-suggestion-container']"));
+		int count = listBox.size();
+		
       System.out.println(listBox.size());
       
-      for (WebElement we:listBox) {
-    	
-    	if (we.getText().equals("samsung m51 back cover")) {
-    		we.click();
-    	}
+//      for (WebElement we:listBox) {
+//    	
+//    	if (we.getText().equals("samsung m51 back cover")) {
+//    		we.click();
+//    	}
+//      }
+      
+      // Retrive the elements in the reverse order and store in the other String 
+      
+      StringBuffer sb = new StringBuffer();
+      
+      for (int i=count-1;i>=0;i--) {
+    	  String text=listBox.get(i).getText()+" ";
+    	  sb.append(text).append(" ");
+    	  
       }
+      
+      System.out.println(sb);
 	
 	
 	

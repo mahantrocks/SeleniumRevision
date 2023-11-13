@@ -15,7 +15,7 @@ public class VerifySignINButtonEnabled {
 		driver = new ChromeDriver();
 		String url="https://www.vtiger.com/";
         driver.get(url);
-        //Verify Agree button in the wensite is enabled
+        //Verify Agree button in the website is enabled
        Boolean op=driver.findElement(By.xpath("//a[text()='Agree']")).isDisplayed();
        if(op==true) {
     	   System.out.println("Agree Button is enabled");

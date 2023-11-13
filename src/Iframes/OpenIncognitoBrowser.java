@@ -25,8 +25,6 @@ public class OpenIncognitoBrowser {
 		//Navigate to active element on the webpage.
 		driver.switchTo().activeElement().sendKeys("Monty");
 		
-		// TODO Auto-generated method stub
-
 	}
 
 }

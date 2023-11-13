@@ -25,10 +25,10 @@ public class RemoveDuplicateValueByLinkedHashSet {
 		
 		Integer[] array = {100,200,300,400,100,200,900};
 		
-		List<Integer> duplicates = new ArrayList<Integer>(Arrays.asList(array));
-		System.out.println(" Duplicate numbers : " +duplicates);
+//		List<Integer> duplicates = new ArrayList<Integer>(Arrays.asList(array));
+//		System.out.println(" Duplicate numbers : " +duplicates);
 		
-		Set<Integer> uniqueValue = new HashSet<Integer>(duplicates);
+		Set<Integer> uniqueValue = new HashSet<Integer>(Arrays.asList(array));
 		System.out.println(" Unique Numbers " + uniqueValue);
 		
 	}
