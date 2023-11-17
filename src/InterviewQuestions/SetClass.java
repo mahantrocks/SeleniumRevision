@@ -147,20 +147,30 @@ public class SetClass {
 		
 		//Remove duplicate characters from the given string 
 		
-		String input = "Automation Engineer";
+//		String input = "Automation Engineer";
+//		
+//		Set<Character> ch = new HashSet<Character>();
+//		StringBuffer sb = new StringBuffer();
+//		
+//		for (int i=0;i<input.length();i++) {
+//			
+//			ch.add(input.charAt(i));
+//			sb.append(input.charAt(i));
+//			
+//		}
+//		
+//		System.out.println(ch);
+//		System.out.println(sb);
 		
-		Set<Character> ch = new HashSet<Character>();
-		StringBuffer sb = new StringBuffer();
 		
-		for (int i=0;i<input.length();i++) {
-			
-			if (!ch.add(input.charAt(i)));
-			sb.append(input.charAt(i));
-			
+		
+		int n=5;
+		int result=0;
+		
+		for (int i=0;i<n;i++) {
+			result =result+i;
 		}
 		
-		System.out.println(ch);
-		System.out.println(sb);
-		
+		System.out.println(result);
 
 }}

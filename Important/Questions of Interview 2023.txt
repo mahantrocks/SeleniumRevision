@@ -1,0 +1,264 @@
+Date : 27/10/2023
+
+Interview Questions asked by EY :
+
+1. What is the difference between StringBuilder and StringBuffer
+2. Expaling TestNg
+3. WAJP to find the lowest number from the given Array
+4. How to handle File Upload in Selenium
+5. How to handle dynamic dropdown
+6. Cucumber Gherkin Normal Text
+7. Overloading and Overriding concepts
+8. Different Authorization types.
+9.
+ 
+
+Interview Quiestions of TechMahindra are as follows :
+
+1. Overloading and Overrriding concepts
+2. Oops concepts 
+3. What are the String classes? 
+4. Tracability Matrik
+5. What is Final keyword in Java
+6. Difference between String Builder and String Buffer
+7. Difference between HashSet and HashMap
+8. WHat is UAT and System Testing. 
+9. WHat is integration testing.
+10. Altrnate of SendKys and Click methods of Selenium
+11.What is Black box testing
+12. Explain Selenium WebDriver in detail
+13. What is the difference between Error and Exception.
+14. What is finally and Finalise 
+15. What is stack and queue
+16. Difference between Verification and Validation
+17.Difference between Bug and Failure
+18. Difference between Keyword driver Framework and Data drivern development framework
+19. Difference between SoftAsset and HardAssert
+
+
+Xorient Interview Questions :
+1. Write a code to open a browser in incognito window mode
+2. What are the dependency for cucumber added in your framework
+3. What are the phugin you have added for cucumber framework
+4. Explain Scenario outline 
+5. Explain dryRun in cucmber
+6. Difference between Interface and ABstract class
+7. Which is the suspermost class in Java
+8. Exception handling in Java
+9. What all exception of selenium
+10. Difference between findElement and FindElements
+11. Difference between driver.get() and Driver.navigate.to()
+12. Difference between ImplicitlyWait and ExplicitWait
+13. What is Background Keyword in Cucmber selenium.
+Ans : In Cucumber Background keyword is used to define the steos which are common across all the scenrios in the feature file 
+14. Difference between 200 and 201 status code in API Testing
+15. Which Basic Authentication you have used when testing API - BearerToken.
+16.Explain Colletion Framework
+18.Explain OOPs concept in your Selenium Framework project.
+19. What are the types of Inheritance in Java?
+20. You are attempt to interact with the browser which has been closed already- which exception you get?
+Ans : NoSuchSessionException.
+21. What are the Hooks in Cucumber. 
+Ans : @Before @After @BeforeStep @AfterStep
+
+
+Altimetrik - Citi 
+
+1. Tell me about yourselt 
+2. Tell me about framework
+3. Difference between ArrayList and Linked List
+4. Which all are plugins used in Cucumber framework
+5. Write a java code to replace numeric values from the given String
+
+
+Altimetrik - Western Union
+
+1. Tell me about yourself
+2. Tell me about your Framework Structure
+3. Selenium code to make browser to 60% zoom level
+4. Xpath to find out all the even odd elements from the webtable
+5. Difference Between Interface and Abstarct Class
+6. Git command to delete branch 
+Ans : Git branch -d branchname
+7. How to handle browser and window pop ups in selenium
+8. What is the selenium Architechture level changes in 4.1 version of Selenium
+9. WAJP to reverse string i/p: selenium String s = "Java Selenium" o/p: "avaJ muineleS"
+10. sendKeys(), sendKeys(""), sendKeys(" ").sendKeys(12345) explain this 
+
+
+
+
+
+*************************************************************************************************
+
+Date : 10/11/2023
+
+Status of the After 1st round interview :
+
+1. Tech Mahindra - waiting for second round : HR Contact- Venella
+2. Altimetrik - Waiting for Client round : HR Contact- Raju Bollom 
+3. DoodleBlue - 2 Technical rounds clear : Waiting for client round slot. 
+4. Atyeti IT Services Pvt Ltd - 1st round is clear - Architect round is on next week.
+
+
+
+Doodle blue client round questions to be prepared.
+
+1. 
+
+
+**************************************************************************************************
+
+Rejected Interviews :
+
+Altimetrik for Western Unioun Client - Pannel had more outofbox questions
+Xorient - Framework explaination was incorrect
+Zelevate - More focussed on Manual Testing and SQL
+
+
+
+
+
+Recruiter Note:
+
+Hi Surabhi,
+I noticed that you are a recruiter at at Haul Plus
+I wanted to reach out to discuss potentially working together.
+I am 'SDET' with proven track record into Automation Testing 
+and I am having 6.5 years of experience and currently seeking new opportunities.
+lets connect,
+Mahant Madiwal
+
+
+Hi Madhavi,
+I noticed that you are a Talent Acquisition Specialist at Flex
+I wanted to reach out to discuss potentially working together.
+I am 'SDET' with proven track record into Automation Testing and
+ I am having 6.5 years of experience and currently seeking new opportunities.
+lets connect,
+Mahant Madiwal
+
+Hi Ruchi,
+I noticed that you are a recruiter
+I wanted to reach out to discuss potentially working together.
+I am 'SDET' with proven track record into Automation Testing and I am having 6.5 years of experience and currently seeking new opportunities.
+lets connect,
+Mahant Madiwal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String s = "Mahant1234";
+char[] ch=s.charArray();
+StringBuffer sb = new StringBuffer();
+
+for (int i=0;i<ch.length();i++){
+if (!Character.isDigti(ch[i])){
+sb.append(ch[i])
+}
+
+******************************************************************************************************
+
+Top SQl interview questions and answers
+
+
+Employeed table 
+
+EmpID   Name    ManagerId   DOJ       City
+121     John    321       1/31/2016   Hyd 
+321     David   986       1/30/2018   Chennai
+421     Scott   876       21/11/2020  Mumbai
+
+1. Write an SQL querry to fetch EmpId and Name of all employees working under manager with id-'986'
+
+Ans : SELECT Empid, Name  FROM Employee WHERE ManagerId=986; 
+
+
+
+2. Write an SQL querry fo fetch different projects available fro the salary table
+
+Salary table 
+
+EmpID   Project     SALARY  Variable    
+121     P1          20000  00 
+321     P2          35000  1000
+421     P1          50000  3000
+
+Ans : Select DISTICT(Project) FROM Salary; Distict clause used to get the unique values from the column
+
+3. WASQ to fetch the count of employees working in project 'p1'.
+
+Salary table 
+EmpID   Project     SALARY  Variable    
+121     P1          20000  00 
+321     P2          35000  1000
+421     P1          50000  3000
+
+Ans : SELECT COUNT(*) FROM Salary WHERE Project = 'P1';
+
+
+4. WASQ to get a maximum, minimun and avarage salary from of the employees.
+
+Select MAX(Salary), MIN(Salary), AVG(Salary) FROM Salary;
+
+
+5. WASQ to find the Employee ID whose salary lies in the range between 30000 AND 40000;
+
+SELECT EmpId, salary FROM Salary WHERE Salary BETWEEN 30000 AND 40000;
+
+6. WASQ to fetch those employee who live in Chennai and work under Manager with ManagerID-986
+
+Employeed table 
+
+EmpID   Name    ManagerId   DOJ       City
+121     John    321       1/31/2016   Hyd 
+321     David   986       1/30/2018   Chennai
+421     Scott   876       21/11/2020  Mumbai
+
+SELECT EmpId, City, ManagerId FROM Salary WHERE City='Chennai' AND ManagerId='986';
+ 
+7. 6. WASQ to fetch those employee who live in Chennai or  work under Manager with ManagerID-321
+
+//please refer above table 
+
+SELECT EmpId, City, ManagerId FROM Salary WHERE City='Chennai' OR ManagerId='321';
+
+8. WASQ to fetch all those Employee who work on Project other than p1.
+
+Salary table 
+EmpID   Project     SALARY  Variable    
+121     P1          20000  00 
+321     P2          35000  1000
+421     P1          50000  3000
+
+SELECT EmpId FROM Salary WHERE NOT PROJECT='P1';
+
+9. WASQ to display the total Salary of each employee adding the salary with variable value 
+
+// refer salary table
+
+SELECT EmpId, Salary+Variable as TotalSalary FROM Salary;
+
+10. WASQ to feth employees whose name begins with any two characters, followed by text "vi" and ending with any sequence of
+characters
+
+// refer Employee Table
+
+SELECT Name FROM Employee WHERE Name LIKE '__vi%';
+
+
+
+	
