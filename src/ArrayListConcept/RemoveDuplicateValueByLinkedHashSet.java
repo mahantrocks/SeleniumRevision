@@ -3,6 +3,7 @@ package ArrayListConcept;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -28,8 +29,13 @@ public class RemoveDuplicateValueByLinkedHashSet {
 //		List<Integer> duplicates = new ArrayList<Integer>(Arrays.asList(array));
 //		System.out.println(" Duplicate numbers : " +duplicates);
 		
-		Set<Integer> uniqueValue = new HashSet<Integer>(Arrays.asList(array));
-		System.out.println(" Unique Numbers " + uniqueValue);
+//		Set<Integer> uniqueValue = new HashSet<Integer>(Arrays.asList(array));
+//		System.out.println(" Unique Numbers " + uniqueValue);
+		
+		
+		// Print the array in reverse order
+		Arrays.sort(array,Collections.reverseOrder());
+		System.out.println(Arrays.asList(array));
 		
 	}
 

@@ -3,6 +3,7 @@ package InterviewQuestions;
 import java.sql.Array;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
@@ -42,25 +43,25 @@ public class RemoveDulicateCharacterFromString {
 //		System.out.println("UniqueValue");
 	
 	
-	String input1= "Subbi bcome so naughty now a days";
+	String input1= "Subbi become so naughty now a days";
 	char ch[] =input1.toCharArray();
 	int count =0;
 	StringBuffer sb = new StringBuffer ();
-	
+		
 	for (int i=0;i<input1.length();i++) {
 		for (int j=i+1;j<input1.length();j++) {
 		 
 				if (ch[i]==ch[j]) {
-					sb.append(ch[i]);
-					//System.out.println(ch[i]);
+					sb.append(ch[j]);
+					System.out.println(ch[i]);
 					
-				}
-				
+				}			
 			
 		}
 	}
 	
 	System.out.println(sb);
+	System.out.println();
 		}
 		
 		
